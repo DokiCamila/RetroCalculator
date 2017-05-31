@@ -46,7 +46,7 @@ class ViewController: UIViewController {
         }
         outputLbl.text = "0"
     }
-    
+   
     @IBAction func numberPressed(sender: UIButton){
         playSound()
         

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -31,34 +31,32 @@
                                     <constraint firstAttribute="height" constant="108" id="TQA-jy-mxF"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="robot" translatesAutoresizingMaskIntoConstraints="NO" id="8CS-oP-WtJ">
-                                <rect key="frame" x="35" y="132" width="305" height="163"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="163" id="wSg-qh-tU0"/>
-                                    <constraint firstAttribute="width" constant="305" id="zzv-ZS-NjZ"/>
-                                </constraints>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Retro-Calc" translatesAutoresizingMaskIntoConstraints="NO" id="TPR-YF-b0S">
-                                <rect key="frame" x="0.0" y="303" width="375" height="62"/>
+                                <rect key="frame" x="0.0" y="168" width="375" height="62"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="robot" translatesAutoresizingMaskIntoConstraints="NO" id="8CS-oP-WtJ">
+                                <rect key="frame" x="26" y="251" width="323" height="165"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="375" id="3C0-IW-Yyt"/>
-                                    <constraint firstAttribute="height" constant="62" id="dsJ-Yq-ilM"/>
+                                    <constraint firstAttribute="height" constant="165" id="D0A-Mu-Y6v"/>
+                                    <constraint firstAttribute="width" constant="323" id="zYB-Xg-lqG"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="TPR-YF-b0S" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="6rb-Y6-hdX"/>
+                            <constraint firstItem="TPR-YF-b0S" firstAttribute="trailing" secondItem="Ffs-KE-aKR" secondAttribute="trailing" id="Fhu-pK-uJr"/>
+                            <constraint firstItem="TPR-YF-b0S" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="148" id="GYy-Au-wwo"/>
                             <constraint firstItem="tLo-x2-oP3" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="I6N-EY-4ri"/>
+                            <constraint firstItem="TPR-YF-b0S" firstAttribute="leading" secondItem="Ffs-KE-aKR" secondAttribute="leading" id="QAF-ZA-bUY"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="tLo-x2-oP3" secondAttribute="bottom" id="QLT-oT-LBq"/>
+                            <constraint firstItem="8CS-oP-WtJ" firstAttribute="top" secondItem="TPR-YF-b0S" secondAttribute="bottom" constant="21" id="RN1-cL-bJ3"/>
                             <constraint firstItem="tLo-x2-oP3" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="UCc-q4-AHA"/>
-                            <constraint firstItem="8CS-oP-WtJ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Y2q-ME-V86"/>
+                            <constraint firstItem="8CS-oP-WtJ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="aUm-C5-JYE"/>
                             <constraint firstItem="Ffs-KE-aKR" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="cmP-ex-zrw"/>
-                            <constraint firstItem="TPR-YF-b0S" firstAttribute="top" secondItem="8CS-oP-WtJ" secondAttribute="bottom" constant="8" id="fT2-by-TVY"/>
                             <constraint firstAttribute="trailing" secondItem="Ffs-KE-aKR" secondAttribute="trailing" id="p3E-oc-x7x"/>
                             <constraint firstAttribute="trailing" secondItem="tLo-x2-oP3" secondAttribute="trailing" id="s0y-ly-1xD"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Ffs-KE-aKR" secondAttribute="bottom" id="sna-Nc-Z6v"/>
-                            <constraint firstItem="TPR-YF-b0S" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="xUB-tX-pRe"/>
+                            <constraint firstItem="8CS-oP-WtJ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="u32-bZ-xFR"/>
                         </constraints>
                     </view>
                 </viewController>

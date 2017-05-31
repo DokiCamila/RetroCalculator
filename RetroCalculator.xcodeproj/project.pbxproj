@@ -14,7 +14,7 @@
 		3D126B4E1E745E8600A2AA71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D126B4C1E745E8600A2AA71 /* Main.storyboard */; };
 		3D126B511E745E8600A2AA71 /* RetroCalculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D126B4F1E745E8600A2AA71 /* RetroCalculator.xcdatamodeld */; };
 		3D126B531E745E8600A2AA71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D126B521E745E8600A2AA71 /* Assets.xcassets */; };
-		3D126B561E745E8600A2AA71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D126B541E745E8600A2AA71 /* LaunchScreen.storyboard */; };
+		3DB267171E8733AA00AF1DC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB267151E8733AA00AF1DC3 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +26,8 @@
 		3D126B4D1E745E8600A2AA71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D126B501E745E8600A2AA71 /* RetroCalculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RetroCalculator.xcdatamodel; sourceTree = "<group>"; };
 		3D126B521E745E8600A2AA71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3D126B551E745E8600A2AA71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D126B571E745E8600A2AA71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DB267161E8733AA00AF1DC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = RetroCalculator/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +64,9 @@
 				3D0A61BD1E7782E60092AA82 /* btn.wav */,
 				3D126B481E745E8600A2AA71 /* AppDelegate.swift */,
 				3D126B4A1E745E8600A2AA71 /* ViewController.swift */,
+				3DB267151E8733AA00AF1DC3 /* LaunchScreen.storyboard */,
 				3D126B4C1E745E8600A2AA71 /* Main.storyboard */,
 				3D126B521E745E8600A2AA71 /* Assets.xcassets */,
-				3D126B541E745E8600A2AA71 /* LaunchScreen.storyboard */,
 				3D126B571E745E8600A2AA71 /* Info.plist */,
 				3D126B4F1E745E8600A2AA71 /* RetroCalculator.xcdatamodeld */,
 			);
@@ -134,9 +134,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D0A61BE1E7782E60092AA82 /* btn.wav in Resources */,
-				3D126B561E745E8600A2AA71 /* LaunchScreen.storyboard in Resources */,
 				3D126B531E745E8600A2AA71 /* Assets.xcassets in Resources */,
 				3D0A61BC1E7781BF0092AA82 /* Minecraft.ttf in Resources */,
+				3DB267171E8733AA00AF1DC3 /* LaunchScreen.storyboard in Resources */,
 				3D126B4E1E745E8600A2AA71 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,12 +165,13 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3D126B541E745E8600A2AA71 /* LaunchScreen.storyboard */ = {
+		3DB267151E8733AA00AF1DC3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3D126B551E745E8600A2AA71 /* Base */,
+				3DB267161E8733AA00AF1DC3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
